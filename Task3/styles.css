@@ -1,0 +1,57 @@
+:root {
+    --bg-color: #FFBF00;
+    --bx-shadow0: 5px 5px 10px #000000,
+        -5px -5px 10px #000000;
+    --color: #ffffff;
+    --font-color: #ffffff;
+}
+/* FFBF00 yellow */
+/* #55b9f3 */
+/* #479bcc */
+/* #63d7ff */
+body {
+    background-color: var(--bg-color);
+}
+
+.style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input,
+button {
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #000000;
+    box-shadow: #000000;
+    margin: 8px;
+    height: 40px;
+    width: 80px;
+}
+
+input:hover,
+button:hover {
+    border-radius: 5px;
+    background: var(--bg-color);
+    box-shadow: inset 5px 5px 10px #000000,
+        inset -5px -5px 10px #000000;
+}
+
+#ans {
+    padding: 8px;
+    height: 60px;
+    width: 363px;
+    margin-bottom: 20px;
+    box-shadow: inset 5px 5px 10px #000000,
+        inset -5px -5px 10px #000000;
+    ;
+}
+
+#eval {
+    width: 180px;
+}
